@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Software-Architecture">
+    <output-path>$PROJECT_DIR$/web/WEB-INF/classes</output-path>
+    <root id="root">
+      <element id="library" level="project" name="mysql-connector-java-8.0.13" />
+    </root>
+  </artifact>
+</component>

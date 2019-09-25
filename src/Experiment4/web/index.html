@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>体重计算</title>
+	<script type="text/javascript" src="./tzrequest.js"></script>
+</head>
+<body>
+	<h1>健康测试软件</h1>
+	<form action="/getBmi" method="post">
+		<table>
+			<tr>
+				<td>请输入你的身高</td>
+				<td><input type="text" name="height" id="height">CM</td>
+			</tr>
+			<tr>
+				<td>请输入你的体重</td>
+				<td><input type="text" name="weight" id="weight">KG</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="查看你的体重情况"></td>
+			</tr>
+		</table>
+	</form>
+</body>
